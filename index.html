@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap"
+     rel="stylesheet">
+     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Reto Oracle One</title>
+  </head>
+  <body>
+    <header>
+      <p>Programa reto1 Oracle-ONE</p>
+      <img class="logo" src="imagenes/Logo.png" alt="logo de alura" />
+    </header>
+    <div class="prinsipal">
+      <div id="seccion1">
+        <h3>Mensaje</h3>
+        <textarea id="mensaje" placeholder="      Escriba su texto aqui" required></textarea>
+        <h5>&#9888 No ingresar texto con acentos</h5>
+        <a id="Encriptar">Encriptar</a> 
+        <a id="Desencriptar">Desencriptar</a>
+        <a id="limpiar">Limpiar</a>       
+      </div>
+      <div id="seccion2">
+        <img src="imagenes/Muñeco.png" alt="">
+        <br>
+        <h2>Ningun mensaje fue encontrado</h2>
+        <p>Ingrese el texto a Encriptar o Desencriptar</p>
+      </div>
+      <div id="seccion3">
+        <p>Mensaje encriptado</p>
+        <textarea id="resultado"></textarea><br><br>
+        <a id="copiar">Copiar</a>
+      </div>
+    </div>
+    <footer>
+      <p>&copy Copyright Reto Alura - 2022 `Uberney Acero`</p>
+    </footer>    
+    <script src="codigo.js"></script>
+  </body>
+</html>
